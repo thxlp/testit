@@ -1,0 +1,66 @@
+{
+  "accuracy": 0.9201608579088472,
+  "labels": [
+    "Phishing Email",
+    "Safe Email"
+  ],
+  "per_label": {
+    "Phishing Email": {
+      "precision": 0.8501019306871328,
+      "recall": 0.9673853711790393,
+      "f1": 0.9049594689474691,
+      "support": 7328
+    },
+    "Safe Email": {
+      "precision": 0.9768208709145573,
+      "recall": 0.889595477830772,
+      "f1": 0.9311699718023391,
+      "support": 11322
+    }
+  },
+  "confusion_matrix_counts": [
+    [
+      7089,
+      239
+    ],
+    [
+      1250,
+      10072
+    ]
+  ],
+  "confusion_matrix_percent": [
+    [
+      0.9673853711790393,
+      0.0326146288209607
+    ],
+    [
+      0.11040452216922805,
+      0.889595477830772
+    ]
+  ],
+  "per_class_average_confidence": {
+    "Safe Email": 0.9086327653212871,
+    "Phishing Email": 0.8911779885687555
+  },
+  "per_class_confidence_stats": {
+    "Safe Email": {
+      "mean": 0.8624550920431383,
+      "median": 0.97437282769956,
+      "p25": 0.852930937076903,
+      "p75": 0.9951693386888187,
+      "std": 0.2306108023363532,
+      "count": 11322
+    },
+    "Phishing Email": {
+      "mean": 0.8821140552946657,
+      "median": 0.9545184153562944,
+      "p25": 0.8546543021306083,
+      "p75": 0.9867455703639203,
+      "std": 0.16293966182269093,
+      "count": 7328
+    }
+  },
+  "predictions_with_confidence_csv": "c:\\Users\\Lenovo\\OneDrive\\เอกสาร\\testdatasetphishing\\comparison_output\\predictions_with_confidence.csv",
+  "false_positives_csv": "c:\\Users\\Lenovo\\OneDrive\\เอกสาร\\testdatasetphishing\\comparison_output\\false_positives.csv",
+  "false_negatives_csv": "c:\\Users\\Lenovo\\OneDrive\\เอกสาร\\testdatasetphishing\\comparison_output\\false_negatives.csv"
+}
