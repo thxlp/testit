@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.39292225201072384,
+  "per_class_metrics": {
+    "Phishing Email": {
+      "precision": 0.39292225201072384,
+      "recall": 1.0,
+      "f1": 0.564169682038648,
+      "support": 7328
+    },
+    "Safe Email": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 11322
+    }
+  },
+  "per_class_confidence": {
+    "Phishing Email": 0.9077560680091638,
+    "Safe Email": 0.9594813660290987
+  },
+  "confusion_matrix": [
+    [
+      7328,
+      0
+    ],
+    [
+      11322,
+      0
+    ]
+  ]
+}
